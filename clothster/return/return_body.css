@@ -1,0 +1,8 @@
+.firstp {text-align: right; margin-left: 250px; margin-right: 250px; border-bottom: thin solid #D1DDE6;}
+.cloth {float:left; margin-left: 250px;}
+.status {text-align: right; margin-right: 250px;}
+.ins {margin-right:50px;}
+.in1 {text-align: right;color:#006DF0; font-size: smaller; font-weight: bold;}
+input {border-radius: 50px; width:250px; height: 30px; background-color:#EBEBEB;}
+#frm {text-align: right;color:#006DF0; font-size: smaller; font-weight: bold; border-bottom: thin solid #DCE2E6; margin-left: 250px; margin-right: 200px;}
+.frmbrdr {box-shadow:  5px 10px 18px #888888; margin-left: 770px; margin-right: 250px;}

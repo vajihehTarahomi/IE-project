@@ -1,0 +1,14 @@
+.support {color: white; background-color:#006DF0; border-radius: 10px; height: 60px; width:280px; position:fixed; top:460px;
+ left: 950px; z-index:+1;}
+.chat {position:fixed; top:480px; left: 1150px;z-index:+1;}
+.chatbox{display: none;
+	color: white; background-color:#006DF0; border-radius: 15px; height: 400px; width:280px; position:fixed; top:120px; 
+	left: 950px; z-index:+1; overflow: scroll;}
+.chatbox #in {position: fixed; top:450px; height: 40px; width: 255px; border-radius: 10px; border-color:#DCE2E6; 
+text-align: right; color:#888888;}
+.chatbox #send {position: fixed; top:470px; z-index: +1; padding-left: 10px;}
+#mini {float: left; padding-left: 10px; padding-top: 10px; position: fixed;}
+.subchat {background-color:#DCE2E6; border-radius: 15px; height: 400px;}
+#sup_img {float:right; padding-right: 10px; border-radius: 100px;}
+#name {text-align: center;}
+

@@ -1,0 +1,22 @@
+.grid {display: flex;}
+.leftbox {border:solid;border-width:thin; border-color:#DCE2E6; width:250px; height: 250px; position: absolute; 
+left:240px; top:200px;}
+#p1 {text-align: center;}
+#p2 {border:solid; border-width:thin; position: relative; top:90px; left:50px; z-index: +1; background-color: white;}
+.midbox {width:400px; height: 250px; position: absolute; left:510px; top:210px; font-size:smaller; text-align: right;}
+.rightbox {width:200px; height: 250px; position: absolute; left:910px; top:210px; font-size:smaller; text-align: right;}
+.rmbox {border:solid; border-width:thin; border-color:#DCE2E6; width:610px; height: 250px; margin-left: 500px; margin-top:20px;}
+.blue {border:solid; border-width:thin; border-radius:5px; border-color:#DCE2E6; width:250px; height: 250px; position: absolute; 
+left:240px; top:460px; background-color:#006DF0; box-shadow:  5px 10px 18px #888888;}
+#env {position: relative; left: 110px; top: 30px; }
+#ozv {padding-left: 80px; padding-right: 80px; color: white; position: relative; top: 50px; text-align: center;}
+#eminput {border-radius:25px; height: 30px; width: 160px; text-align: right; position: relative;left:20px; top: 80px; padding-right: 40px; color:#006DF0;}
+#ozvbutton {position: relative; left: 80px; top: 100px; border-radius: 20px; width: 100px; height: 30px; background-color:black; color:white;}
+#email {position: relative;left:-10px; top: 80px;}
+#sp {width:200px; height:50px; border-radius: 25px; background-color:#006DF0; color: white; position: relative; left:220px; top:125px;
+z-index: +1; padding: 15px;}
+#sp:hover {font-weight: bold;}
+#ozvbutton:hover {font-weight: bold;}
+#email1 {display: none;}
+#eminput:hover #email {display: none;}
+#eminput:hover #email1 {display: inline;}

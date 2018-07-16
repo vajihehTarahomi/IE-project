@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Clothster</title>
+        <link href="return.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="support.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    </head>
+    <body>
+        <span class="search">
+        <img id="search" src="search.png" width="18px" height="18px"; />
+        <img id="search1" src="searchb.png" width="18px" height="18px"; style="position: relative;top:5px; left: 25px;"/>
+        <input style="border-radius:25px; height: 20px; width: 200px; padding-left: 20px; background-color: white;"/>
+        </span>
+        <span class="reg">
+        <button class="button" id="v">ورود</button>
+        <button class="button" id="o">عضویت</button>
+        </span>
+        <h2>Clothster</h2>
+        <div class="navbarbox">
+        	<div class ="nav">برندها</div>
+        	<div class ="nav">تخفیف</div>
+        	<div class ="nav">ورزشی</div>
+        	<div class ="nav">بچه گانه</div>
+        	<div class ="nav">زنانه</div>
+        	<div class ="nav">مردانه</div>
+        </div>
+        <br />
+        <div class="blockbutton">
+        	<div class="block">
+        	<img id="img1" src="lock.png" width="30px" height="30px" style="position: relative; left: 17px;"/>
+        	<img id="img11" src="lock-w.png" width="30px" height="30px" style="z-index: -1;"/>
+        	<p>حریم خصوصی</p>
+        	</div>
+        	<div class="block">
+        	<img id="img2" src="person.png" width="30px" height="30px" style="position: relative; left: 17px;"/>
+        	<img id="img22" src="person-w.png" width="30px" height="30px" style="z-index: -1;"/>
+        	<p>شرایط و ضوابط</p>
+        	</div>
+        	<div class="block">
+        	<img id="img3" src="left.png" width="30px" height="30px" style="position: relative; left: 17px;"/>
+        	<img id="img33" src="left-w.png" width="30px" height="30px" style="z-index: -1;"/>
+        	<p>شرایط بازگرداندن</p>
+        	</div>
+        	<div class="block">
+        	<img id="img4" src="question.png" width="30px" height="30px" style="position: relative; left: 17px;"/>
+        	<img id="img44" src="question_w.png" width="30px" height="30px" style="z-index: -1;"/>
+        	<p>سوالات متداول</p>
+        	</div>
+        	<div class="block">
+        	<img id="img5" src="msg.png" width="30px" height="30px" style="position: relative; left: 17px;"/>
+        	<img id="img55" src="envelope-w.png" width="30px" height="30px" style="z-index: -1;"/>
+        	<p>تماس با ما</p>
+        	</div>
+        	<div class="block">
+        	<img id="img6" src="chat.png" width="30px" height="30px" style="position: relative; left: 17px;"/>
+        	<img id="img66" src="chat_w.png" width="30px" height="30px" style="z-index: -1;"/>
+        	<p>درباره ما</p>
+        	</div>
+        </div>
+        <br />
+        <div class="firstp">
+        <h3 style="font-weight: lighter;">شرایط بازگرداندن کالا</h3>
+        <p>برای رضایت خاطر مشتریان و بالارفتن آمار اینترنتی کالاها، فروشگاه ما در نظر دارد تا برای هریک از اقلام فروخته شده تا 10 روز مهلت تست و بازگشت به شرط سالم بودن لباس را اعمال کند.</p>
+   		</div>
+   		<img class="cloth" src="ret.png" width="500px" height="500px"/>
+   		<div class="status">
+   		<h3 style="font-weight: lighter;">وضعیت کالا</h3>
+   		<p>کالا باید از نظر ظاهری کاملا سالم و در شرایط اولیه ای باشد که تحویل مشتری شده است. </p>
+   		<p>برای هر کالا وقت جداگانه ای از طرف شرکت در نظر <b>گرفته می شود که در آن وقت مخصوص پیک نسبت</b> به جمع آوری کالا از مشتری اقدام می کند.</p>
+   		<br />
+   		<p>در صورتی که کالایی برای بازگرداندن دارید شماره سفارش خود را در قسمت زیر نوشته و کلید ثبت را فشار دهید.</p>
+    	</div>
+    	<form action="http://127.0.0.1/" method="get">
+    		<div class="frmbrdr">
+    		<p id="frm">مشخصات سفارش</p>
+    		<div class="ins">
+    		<div class="in1">
+    		شهر	
+			<br />
+			<input type="text" name="site" value="" size="20" maxlength="64" /> 
+			</div>
+			<div class="in1">
+			شماره سفارش
+			<br />
+			<input type="text" name="email" value="" size="20" maxlength="64" /> 
+			</div>
+    		</div>
+    		<br /><br />
+    		<button style="margin-right: 150px; width: 250px; height: 40px; background-color:#006DF0; color:white; border-radius: 25px;">ثبت درخواست</button>
+    		</div>
+    		<br />
+    	</form>
+    	
+    	<button class="support" onclick="chatSupporter()">پشتیبانی آنلاین&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+        <img class="chat" src="Messages.png" width="30px" height="30px"/>
+        
+        <div class="chatbox">
+        	<input id="mini" type="image" src="min.png" width="20px" height="20px" onclick="minimize()"></button>
+        	<br />
+        	<span style="text-align: right; margin-left: 40px;">پشتیبان بخش فروش</span>
+        	<img id="sup_img" />
+        	<p id="name"></p>
+        	<p id="date"></p>
+        	<br />
+        	<div class="subchat">
+        	<input id="in" value="...متن پیام به پشتیبانی" />
+        	<input id="send" onclick="sendSupporter()" type="image" src="send.png" width="20px" height="20px"/>
+        	</div>
+        </div>
+    	
+    	<div class="footer" style="position: absolute; top:850px; left: 100px;">
+        	<div class="item">تمامی حقوق این سایت متعلق به دانشگاه امیرکبیر بوده و هرگونه استفاده از منابع و طراحی های این سایت توسط نهادی در خارج از دانشگاه با پیگرد قانونی همراه خواهد بود.</div>
+        	<div class="item" style="font-size: small; text-align: center;">به ما در رسانه های اجتماعی بپیوندید
+        	<br />
+        	<img id="i1" src="facebook-logo-646970.png" width="30px" height="30px"/>
+        	<img id="i11" src="facebook-logo-b.png" width="30px" height="30px" style="z-index: -1;"/>
+        	<img id="i2" src="gp.png" width="30px" height="30px"/>
+        	<img id="i22" src="gpb.png" width="30px" height="30px" style="z-index: -1;"/>
+        	<img id="i3" src="twitter-logo-646970.png" width="30px" height="30px"/>
+        	<img id="i33" src="twitter-logo-b.png" width="30px" height="30px" style="z-index: -1;"/>
+        	<br />
+        	<img id="i4" src="facebook-logo-646970.png" width="30px" height="30px"/>
+        	<img id="i44" src="facebook-logo-b.png" width="30px" height="30px" style="z-index: -1;"/>
+        	<img id="i5" src="gp.png" width="30px" height="30px"/>
+        	<img id="i55" src="gpb.png" width="30px" height="30px" style="z-index: -1;"/>
+        	<img id="i6" src="twitter-logo-646970.png" width="30px" height="30px"/>
+        	<img id="i66" src="twitter-logo-b.png" width="30px" height="30px" style="z-index: -1;"/>
+        	</div>
+        	<div class="item">
+        	<b>اطلاعات ما</b>
+        	<br /><span class="footersp">تماس با ما</span>
+        	<br /><span class="footersp">درباره ما</span>
+        	</div>
+        	<div class="item">
+        	<b>خدمات مشتریان</b>
+        	<br /><span class="footersp">سوالات متداول </span>
+        	<br /><span class="footersp">بازگرداندن کالا</span>
+        	<br /><span class="footersp">شرایط استفاده </span>
+        	<br /><span class="footersp">حریم شخصی</span>
+        	</div>
+        </div>
+    </body>
+</html>

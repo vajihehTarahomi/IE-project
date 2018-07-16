@@ -1,0 +1,17 @@
+.blockbutton {display:flex; justify-content: center; margin-left: 200px; margin-right: 200px;}
+.block {border:solid;border-width:thin; border-radius:5px; border-color:#43494D ;margin-left: auto; margin-right: 
+auto; text-align: center; width:120px; height: 80px;}
+.block:hover {background-color: #006DF0; color:white; border-color: #006DF0;}
+#img11 #img22 #img33 #img44 #img55 #img66 {display: none;}
+.block:hover > #img1 {display: none;}
+.block:hover > #img11 {display: inline;}
+.block:hover > #img2 {display: none;}
+.block:hover > #img22 {display: inline;}
+.block:hover > #img3 {display: none;}
+.block:hover > #img33 {display: inline;}
+.block:hover > #img4 {display: none;}
+.block:hover > #img44 {display: inline;}
+.block:hover > #img5 {display: none;}
+.block:hover > #img55 {display: inline;}
+.block:hover > #img6 {display: none;}
+.block:hover > #img66 {display: inline;}

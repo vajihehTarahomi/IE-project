@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Shabnam";
+    src:url('Shabnam.eot?#') format('eot'),    
+          url('Shabnam.woff') format('woff'),
+          url('Shabnam.ttf') format('truetype');    
+          }
+h2 {text-align: center; color:#43494D; font-weight:lighter;}
+.search {float: left; margin-left: 50px;}
+#search {position: relative; left:25px; top:5px;}
+.button {border-radius: 20px; width: 100px; height: 30px;}
+#v {background-color: black; color: white;}
+#o {background-color: white;}
+.reg {float: right; margin-right: 50px;}
+.navbarbox {display: flex; padding-left: 100px; padding-right: 100px; margin-left: 300px; margin-right: 300px; border-bottom:thin solid #DCE2E6;}
+.nav {margin-left: auto; margin-right: auto;}
+hr { color:DCE2E6; margin-right: 100px; margin-right: 50px; border-width: 1px; }
+.nav:hover {color:#006DF0; text-decoration: underline;}
+span.search:hover > input {border-color: #006DF0; }
+#v:hover {background-color: #006DF0; color:white;}
+#o:hover {background-color:white; color:#006DF0; border-color:#006DF0;}
+#search1 {display: none;}
+span.search:hover > #search {display: none;}
+span.search:hover > #search1 {display: inline;}

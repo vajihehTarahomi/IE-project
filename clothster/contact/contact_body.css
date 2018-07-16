@@ -1,0 +1,19 @@
+.p1{text-align: right; margin-left: 250px; margin-right: 250px;}
+.tamas {display: flex;justify-content: center; border-bottom:thin solid #D1DDE6; border-top:thin solid #D1DDE6; margin-left:250px; margin-right: 250px;}
+.itm {padding: 20px; text-align: right;}
+#1 {border-right: thin solid #D1DDE6;}
+.map {float:left; margin-left: 250px;}
+.addr {text-align: right; margin-right: 250px;}
+.redbox {background-color:#B5243F; color:white; clear:both;border-radius:5px;text-align:right; margin-left: 250px; margin-right: 250px; height: 50px;
+position: relative; top:20px;}
+.form {text-align: right; margin-right: 250px;}
+#p {text-align: right;color:#006DF0; font-size: smaller; font-weight: bold; border-bottom: thin solid #DCE2E6; margin-left: 250px; margin-right: 250px;}
+.inputs {display: flex; justify-content: center;}
+.in {padding: 20px; text-align: right;color:#006DF0; font-size: smaller; font-weight: bold;}
+input {border-radius: 50px; width:250px; height: 30px; background-color:#EBEBEB;}
+textarea {border-radius: 20px; background-color:#EBEBEB; width:840px; height: 100px; margin-left: 250px; margin-right: 250px;}
+.formborder {box-shadow:  5px 10px 18px #888888;}
+#but {margin-left: 250px; width: 250px; height: 40px; background-color: white; color:#006DF0;border-color:#006DF0; border-radius: 25px;}
+#but:hover{background-color:#006DF0; color: white; font-weight: bold;}
+.in > input:hover {border-color:#006DF0; background-color:white;}
+textarea:hover {border-color:#006DF0; background-color:white;}

@@ -1,0 +1,6 @@
+@import 'navbar.css';
+@import 'block_button.css';
+@import 'contact_body.css';
+@import 'footer.css';
+@import 'support.css';
+body { font-family: "Shabnam"; font-size: small; color:#43494D;}
